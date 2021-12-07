@@ -1,0 +1,23 @@
+@import "vars";
+.container {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-title {
+  font-size: 62px;
+}
+.container-button {
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #acd9b2;
+  color: #fff;
+  font-size: 22px;
+  text: {
+    decoration: none;
+  }
+}

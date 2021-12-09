@@ -1,9 +1,8 @@
 import React from "react";
+import { ProductList } from "../containers/ProductList";
 
-export default function Home() {
-  return (
-    <div>
-      <h1>React SHOP</h1>
-    </div>
-  );
+function Home() {
+  return <ProductList />;
 }
+
+export { Home };

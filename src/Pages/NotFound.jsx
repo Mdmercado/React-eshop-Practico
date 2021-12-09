@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "../styles/NotFound.scss";
 
-export default function NotFound() {
+function NotFound() {
   return (
     <div className="container">
       <h1 className="container-title">Pagina no encontrada</h1>
@@ -13,3 +13,5 @@ export default function NotFound() {
     </div>
   );
 }
+
+export { NotFound };

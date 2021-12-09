@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/RecoveryPass.scss";
-export default function RecoveryPass() {
+import "../styles/SendEmails.scss";
+function SendEmail() {
   return (
     <div className="login">
       <div className="form-container">
@@ -21,3 +21,5 @@ export default function RecoveryPass() {
     </div>
   );
 }
+
+export { SendEmail };
